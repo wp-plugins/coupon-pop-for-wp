@@ -1,8 +1,8 @@
 <?php
 /*
-Plugin Name: StoreYa Coupon Pop 
+Plugin Name: Coupon Pop widget for WP
 Plugin URI: http://www.storeya.com/public/couponpop
-Description: The Coupon Pop Plugin increases your fan base and email lists by popping up special offers and discounts to your visitors
+Description: A plugin that increases your fan base and email lists by popping up special offers and discounts to your visitors.
 Version: 1.0
 Author: StoreYa
 Author URI: http://www.storeya.com/
