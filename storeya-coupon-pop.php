@@ -3,7 +3,7 @@
 Plugin Name: Coupon Pop widget for WP
 Plugin URI: http://www.storeya.com/public/couponpop
 Description: A plugin that increases your fan base and email lists by popping up special offers and discounts to your visitors.
-Version: 1.0
+Version: 1.1
 Author: StoreYa
 Author URI: http://www.storeya.com/
 
@@ -97,20 +97,14 @@ function scp_plugin_actions($links, $file)
 ?></span></h3>
             <div class="inside" style="padding: 0 10px">
               <p style="text-align:center">
-		  <a href="http://www.storeya.com/" target="_blank" title="<?php
-            _e('Convert your visitors to paying customers with StoreYa!', $scp_domain);
-		  ?>">
-<?php			
-			echo '<img src="' . plugins_url( 'storeya-coupon-pop/storeya_coupon_pop.png' , dirname(__FILE__) ) . '" height="200" width="200"> ';
-?>
-</a></p>
+		      </p>
               <form method="post" action="options.php">
                 <?php
             settings_fields('storeya-coupon-pop-group');
 ?>
                 <p><label for="scpID"><?php
             printf(__('
-Enter Coupon Pop script you got from %1$sIncrease your online sales today with StoreYa!%2$sStoreYa%3$s.', $scp_domain), '<strong><a href="http://www.storeya.com/" target="_blank"  title="', '">', '</a></strong>');
+Enter Coupon Pop script you got from %1$sIncrease your online sales today with StoreYa!%2$sStoreYa%3$s.', $scp_domain), '<strong><a href="http://www.storeya.com/public/couponpop" target="_blank"  title="', '">', '</a></strong>');
 ?></label></p>
 
                   <p><textarea rows="11" cols="62" name="scpID" ><?php echo get_option('scpID');?></textarea></p>
