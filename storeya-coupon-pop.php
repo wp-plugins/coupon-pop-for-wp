@@ -126,6 +126,7 @@ Enter Coupon Pop script you got from %1$sIncrease your online sales today with S
 
                 </div>
               </div>
+			  <img src="http://www.storeya.com/widgets/admin/wpcouponpop"/>
               <?php
         }
         add_action('admin_init', 'scp_settings');

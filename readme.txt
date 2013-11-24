@@ -1,6 +1,6 @@
 === Coupon Pop widget for WP ===
 Contributors: StoreYa
-Tags: coupon, email, facebook, facebook likes, get likes, increase sales, likes, twitter-followers, wordpress, google, deals, discount, sales, widget, plugin, storeya, token, password, paypal,
+Tags: Facebook, ecommerce, import, Viral marketing, woocommerce, woo-commerce, wp-commerce, wp, Rewards, Facebook marketing, SocialMarketing, Online Sales, Marketing tools, Social commerce, storeya, Promotional tool, engagement, Online  marketing, EmailMarketing, Twitter, G+, google, google plus, Instagram, Pinterest, LinkedIn, likes, get likes, buy likes, fans, add fans, buyfans, Incentive app, Social campaigns, ads, seo, ppc, wordpress, share, blog, plugin, sharing, network, tumblr, coupon, email, facebook likes, get likes, increase sales, likes, twitter followers, deals, discount, sales, widget, token,  paypal
 Requires at least: 3.0
 Tested up to: 3.7.1
 Stable tag: 1.1.1
