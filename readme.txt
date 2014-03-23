@@ -1,24 +1,31 @@
 === Coupon Pop widget for WP ===
 Contributors: StoreYa
-Tags: Facebook, ecommerce, import, Viral marketing, woocommerce, woo-commerce, wp-commerce, wp, Rewards, Facebook marketing, SocialMarketing, Online Sales, Marketing tools, Social commerce, storeya, Promotional tool, engagement, Online  marketing, EmailMarketing, Twitter, G+, google, google plus, Instagram, Pinterest, LinkedIn, likes, get likes, buy likes, fans, add fans, buyfans, Incentive app, Social campaigns, ads, seo, ppc, wordpress, share, blog, plugin, sharing, network, tumblr, coupon, email, facebook likes, get likes, increase sales, likes, twitter followers, deals, discount, sales, widget, token,  paypal
+Tags: Facebook, ecommerce, import, Viral marketing, woocommerce, woo-commerce, wp-commerce, wp, Rewards, Facebook marketing, SocialMarketing, Online Sales, Marketing tools, Social commerce, storeya, Promotional tool, engagement, Online  marketing, EmailMarketing, Twitter, G+, google, google plus, Instagram, Pinterest, LinkedIn, likes, get likes, buy likes, fans, add fans, buyfans, Incentive app, Social campaigns, ads, seo, ppc, wordpress, share, blog, plugin, sharing, network, tumblr, coupon, email, facebook likes, get likes, increase sales, likes, twitter followers, deals, discount, sales, widget, token,  paypal, leads, lead generator, lead generation
 Requires at least: 3.0
 Tested up to: 3.8
 Stable tag: 1.3
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-A plugin that increases your fan base and email lists by popping up special offers and discounts to your visitors.
+Automatic Lead Generator plugin increasing your visitors' engagement and conversion rate from day one!
 
 == Description ==
 
-StoreYa Coupon Pop Plugin boosts your website conversion rate and increases your fan base and email lists by popping up special offers and discounts to your visitors.
+Exposed to 10 million customers every month, the Coupon Pop results talk for themselves:
 
-Coupon Pop enables you to pre-define a promotion that would pop up to your visitors asking them to join you in any social network you are active or wish to be active on as well as your to your emails list.
-Coupon pop works with Facebook, Twitter, Google+, LinkedIn, and has an easy one minute set up!
+1. Download the  zip file and save it locally - 'storeya-coupon-pop.zip'.
 
-Add the Coupon Pop to your site Today, and you'll be amazed from the quick results!!
+2. Grow Facebook communities by 25%
 
-**NEW!** Coupon Pop now comes with a Christmas Theme:-)
+3. Increase Web store’s pageviews by 250%
+
+4. Generates thousands of email addresses for your future sales
+
+Easy 2 minutes installation – free for Beta!
+
+The Coupon Pop enables you to pre-define a promotion that would pop up to your visitors asking them to join you in any social network you are active or wish to be active on as well as your to your emails list. Coupon pop works with Facebook, Twitter, Google+, LinkedIn.
+
+The Coupon Pop Plugin is designed to boost your web store’s conversion rate and to increases your fan base and email lists by popping up special offers and discounts to your visitors.
 
 To learn more about StoreYa and how it works visit [our website](http://www.storeya.com/public/couponpop).
 
