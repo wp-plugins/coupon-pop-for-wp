@@ -1,4 +1,4 @@
-=== Automatic Lead Generator for WooCommerce ===
+﻿=== Automatic Lead Generator for WooCommerce ===
 Contributors: StoreYa
 Tags: Facebook, ecommerce, import, Viral marketing, woocommerce, woo-commerce, wp-commerce, wp, Rewards, Facebook marketing, SocialMarketing, Online Sales, Marketing tools, Social commerce, storeya, Promotional tool, engagement, Online  marketing, EmailMarketing, Twitter, G+, google, google plus, Instagram, Pinterest, LinkedIn, likes, get likes, buy likes, fans, add fans, buyfans, Incentive app, Social campaigns, ads, seo, ppc, wordpress, share, blog, plugin, sharing, network, tumblr, coupon, email, facebook likes, get likes, increase sales, likes, twitter followers, deals, discount, sales, widget, token,  paypal, leads, lead generator, lead generation
 Requires at least: 3.0
