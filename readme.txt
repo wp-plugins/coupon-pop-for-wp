@@ -21,6 +21,8 @@ Automatic Lead Generator plugin increasing your visitors' engagement and convers
 
 - Generates thousands of email addresses for your future sales
 
+- Coupon Pop is compatible to Desktop, Tablet, and mobile
+
 Easy 2 minutes installation – free for Beta!
 
 The Coupon Pop enables you to pre-define a promotion that would pop up to your visitors asking them to join you in any social network you are active or wish to be active on as well as your to your emails list. Coupon pop works with Facebook, Twitter, Google+, LinkedIn.
@@ -53,17 +55,17 @@ To learn more about StoreYa and how it works visit [our website](http://www.stor
 
 == Screenshots ==
 
-1. Christmas Theme Coupon Pop.
+1. A live Coupon Pop example - 1.
 
-2. Coupon Pop - Free Christmas package.
+2. A live Coupon Pop example - 2.
 
-3. Coupon Pop - Live example.
+3. A live Coupon Pop example - 3.
 
-4. Coupon Pop is compatible to Desktop, Tablet, and mobile.
+4. A live Coupon Pop example - 4.
 
-5. Coupon Pop with all the social networks turned on.
+5. A live Coupon Pop example - 5.
 
-6. Gallery Carousel.
+6. A live Coupon Pop example - 6.
 
 == Resources ==
 
