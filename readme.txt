@@ -69,7 +69,7 @@ To learn more about StoreYa and how it works visit [our website](http://www.stor
 
 == Resources ==
 
-[StoreYa support](https://storeya.zendesk.com/home)
+[StoreYa support](https://storeya.zendesk.com/home) 
 
-[Coupon Pop website](http://www.storeya.com/public/couponpop)
+[Coupon Pop website](http://www.storeya.com/public/couponpop)  
 
