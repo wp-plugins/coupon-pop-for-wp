@@ -13,7 +13,7 @@ Automatic Lead Generator plugin increasing your visitors' engagement and convers
 
 **Exposed to 10 million customers every month, the Coupon Pop results talk for themselves:**
 
-- Boost sales by 13%
+- Boost sales by 20%
 
 - Grow Facebook communities by 25%
 
