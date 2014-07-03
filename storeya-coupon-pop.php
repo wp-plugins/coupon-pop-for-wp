@@ -129,7 +129,7 @@ Enter Coupon Pop secret key you got from %1$sIncrease your online sales today wi
                   </form>
 </p>
                   <p style="font-size:smaller;color:#999239;background-color:#ffffe0;padding:0.4em 0.6em !important;border:1px solid #e6db55;-moz-border-radius:3px;-khtml-border-radius:3px;-webkit-border-radius:3px;border-radius:3px"><?php
-            printf(__('Don&rsquo;t have a Coupon Pop? No problem! %1$sKeep your visitors engaged with you in all social networks you are active on!%2$sCreate a <strong>FREE</strong> StoreYa Coupon Pop  Now!%3$s', $scp_domain), '<a href="http://www.fluxas.com/public/couponpop" target="_blank" title="', '">', '</a>');
+            printf(__('Don&rsquo;t have a Coupon Pop? No problem! %1$sKeep your visitors engaged with you in all social networks you are active on!%2$sCreate a <strong>FREE</strong> StoreYa Coupon Pop  Now!%3$s', $scp_domain), '<a href="http://www.storeya.com/public/couponpop" target="_blank" title="', '">', '</a>');
 ?></p>
                   </div>
                 </div>
