@@ -17,13 +17,34 @@ License: GPLv2
 along with this program. If not, see <http://www.gnu.org/licenses/>.
 */
 
+add_action('wp_footer', 'scp_insert');
+
+function scp_insert()
+{
+    global $current_user;
+    if (get_option('scpID')) {
+            
+        $secret_key = get_option('scpID');
+		$sty_script = "<script type=\"text/javascript\"> var headID = document.getElementsByTagName(\"head\")[0]; var newScript = document.createElement('script'); newScript.type = 'text/javascript'; var t = ''; if (document.cookie.indexOf(\"iscm=1\") != -1) { var d = new Date(); t = '&t=' + d.getTime(); } newScript.src = '//www.storeya.com/externalscript/couponpop?sid=".$secret_key ."' + t; headID.appendChild(newScript);</script>";
+	$script = str_replace("\"","\"",$sty_script);
+        echo $script; 
+    }
+}
+
+
+if ( is_admin() ) {
+	
+
+
 $plugurldir = get_option('siteurl') . '/' . PLUGINDIR . '/storeya-coupon-pop/';
 $scp_domain = 'StoreYaCouponPop';
 load_plugin_textdomain($scp_domain, 'wp-content/plugins/storeya-coupon-pop');
 add_action('init', 'scp_init');
-add_action('wp_footer', 'scp_insert');
+
 add_action('admin_notices', 'scp_admin_notice');
 add_filter('plugin_action_links', 'scp_plugin_actions', 10, 2);
+
+
 
 function scp_init()
 {
@@ -48,15 +69,7 @@ function scp_plugin_get_version()
     $plugin_file   = basename((__FILE__));
     return $plugin_folder[$plugin_file]['Version'];
 }
-function scp_insert()
-{
-    global $current_user;
-    if (get_option('scpID')) {
-            
-        $script = str_replace("\"","\"",get_option('scpID'));
-        echo $script; 
-    }
-}
+
 
 function scp_admin_notice()
 {
@@ -104,10 +117,10 @@ function scp_plugin_actions($links, $file)
 ?>
                 <p><label for="scpID"><?php
             printf(__('
-Enter Coupon Pop script you got from %1$sIncrease your online sales today with StoreYa!%2$sStoreYa%3$s.', $scp_domain), '<strong><a href="http://www.storeya.com/public/couponpop" target="_blank"  title="', '">', '</a></strong>');
+Enter Coupon Pop secret key you got from %1$sIncrease your online sales today with StoreYa!%2$sStoreYa%3$s.', $scp_domain), '<strong><a href="http://www.storeya.com/public/couponpop" target="_blank"  title="', '">', '</a></strong>');
 ?></label></p>
 
-                  <p><textarea rows="11" cols="62" name="scpID" ><?php echo get_option('scpID');?></textarea></p>
+                  <p><textarea rows="1" cols="20" name="scpID" ><?php echo get_option('scpID');?></textarea></p>
                     <p class="submit">
                       <input type="submit" class="button-primary" value="<?php
             _e('Save Changes');
@@ -116,7 +129,7 @@ Enter Coupon Pop script you got from %1$sIncrease your online sales today with S
                   </form>
 </p>
                   <p style="font-size:smaller;color:#999239;background-color:#ffffe0;padding:0.4em 0.6em !important;border:1px solid #e6db55;-moz-border-radius:3px;-khtml-border-radius:3px;-webkit-border-radius:3px;border-radius:3px"><?php
-            printf(__('Don&rsquo;t have a Coupon Pop? No problem! %1$sKeep your visitors engaged with you in all social networks you are active on!%2$sCreate a <strong>FREE</strong> StoreYa Coupon Pop  Now!%3$s', $scp_domain), '<a href="http://www.storeya.com/public/couponpop" target="_blank" title="', '">', '</a>');
+            printf(__('Don&rsquo;t have a Coupon Pop? No problem! %1$sKeep your visitors engaged with you in all social networks you are active on!%2$sCreate a <strong>FREE</strong> StoreYa Coupon Pop  Now!%3$s', $scp_domain), '<a href="http://www.fluxas.com/public/couponpop" target="_blank" title="', '">', '</a>');
 ?></p>
                   </div>
                 </div>
@@ -129,5 +142,14 @@ Enter Coupon Pop script you got from %1$sIncrease your online sales today with S
         add_action('admin_init', 'scp_settings');
         add_submenu_page('options-general.php', __('StoreYa Coupon Pop ', $scp_domain), __('StoreYa Coupon Pop ', $scp_domain), 'manage_options', 'storeya-coupon-pop', 'scp_settings_page');
     }
+    
+    } else {
+    if ( isset ( $_REQUEST['action'] ) && 'storeya_sync_data' == $_REQUEST['action'] ) {
+	    require_once ( 'SyncManager.php' );
+	     require_once ( 'StoreYaAPI.php' );
+	     }
+}
+
+
 
 ?>
