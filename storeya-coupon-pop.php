@@ -38,7 +38,7 @@ if ( is_admin() ) {
 
 $plugurldir = get_option('siteurl') . '/' . PLUGINDIR . '/storeya-coupon-pop/';
 $scp_domain = 'StoreYaCouponPop';
-load_plugin_textdomain($scp_domain, 'wp-content/plugins/storeya-coupon-pop');
+load_plugin_textdomain($scp_domain, false, dirname( plugin_basename( __FILE__ ) ) . '/storeya-coupon-pop/');
 add_action('init', 'scp_init');
 
 add_action('admin_notices', 'scp_admin_notice');
