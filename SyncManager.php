@@ -63,19 +63,26 @@ function storeya_get_product_image_url($product_id) {
 	if(!is_null($order->id)) {
 		$data = array();
 		$data['order_date'] = $order->order_date;		
-		echo $data['order_date'];
+		echo "order_date: ".$data['order_date'];	
+		
+		
+		$data['order_status'] = '';
+		if ( $result = get_post($order->id) ) {		
+			$order->populate( $result );
+	                $data['order_status'] = $order->status;
+                 }		
+		echo "order_status: ".$data['order_status'];
 		
 		$data['email'] = $order->billing_email;		
-		echo $data['email'];
+		echo "order_email: ".$data['email'];
 		
 		$data['customer_name'] = $order->billing_first_name.' '.$order->billing_last_name;		
-		echo $data['customer_name'];
+		echo "order_customer_name: ".$data['customer_name'];
 		
 		$data['order_id'] = $order_id;		
-		echo $data['order_id'];
+		echo "order_id: ". $data['order_id'];
 		
-		$data['currency_iso'] = $this->storeya_get_order_currency($order);
-		
+		$data['currency_iso'] = $this->storeya_get_order_currency($order);		
 		
 		          $used_coupons = null;
 		          if( $order->get_used_coupons() ) {
@@ -86,27 +93,27 @@ function storeya_get_product_image_url($product_id) {
                            }                          
                          }
                           $data['used_coupons'] = $used_coupons;
-                          echo "used_coupons: ".$data['used_coupons'];			 
-			
+                          echo "order_used_coupons: ".$data['used_coupons'];			
 			 
 			 $data['total_discount'] = $order->get_total_discount();
-			 echo "total_discount: ".$data['total_discount'];
+			 echo "order_total_discount: ".$data['total_discount'];
 			
 		         $data['total'] = $order->get_total();
-			 echo "total: ".$data['total'];
+			 echo "order_total: ".$data['total'];
 		
 		         $data['items_count'] = $order->get_item_count();
-		         echo "items_count: ".$data['items_count'];
+		         echo "order_items_count: ".$data['items_count'];
 		
 		$products_arr = array();
 		$product_index = 0;
 		foreach ($order->get_items() as $product) 
-		{
+		{	
+			
 			$product_instance = get_product($product['product_id']);
  
 			$description = '';
-			if (is_object($product_instance)) {
-				$description = strip_tags($product_instance->get_post_data()->post_excerpt);	
+			if (is_object($product_instance)) {			
+				$description = strip_tags($product_instance->get_post_data()->post_excerpt);				
 			}
 			$product_data = array();   
 			$product_data['url'] = get_permalink($product['product_id']); 
@@ -117,7 +124,8 @@ function storeya_get_product_image_url($product_id) {
 			$product_data['id'] = $product['product_id'];
 			
 			$products_arr[$product_index] = $product_data;
-			$product_index++;				
+			$product_index++;
+							
 			
 		}	
 		$data['products'] = $products_arr;
