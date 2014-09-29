@@ -11,17 +11,15 @@ Automatic Lead Generator plugin increasing your visitors' engagement and convers
 
 == Description ==
 
-**Exposed to 10 million customers every month, the Coupon Pop results talk for themselves:**
+**Exposed to 35 million customers every month, the Coupon Pop results talk for themselves:**
 
-- Boost sales by 20%
+- Boost sales by 30%
 
-- Grow Facebook communities by 25%
+- Grow social communities (Facebook, Twitter, Instagram, G+, Linkedin) by 25%
 
 - Increase Web store’s pageviews by 250%
 
 - Generates thousands of email addresses for your future sales
-
-Easy 2 minutes installation – free for Beta!
 
 The Coupon Pop enables you to pre-define a promotion that would pop up to your visitors asking them to join you in any social network you are active or wish to be active on as well as your to your emails list. Coupon pop works with Facebook, Twitter, Google+, LinkedIn.
 
@@ -45,7 +43,7 @@ To learn more about StoreYa and how it works visit [our website](http://www.stor
 
 8. Go to www.storeya.com/public/couponpop
 
-9. If you are not logged in, please click on the "Create a Free Coupon Pop Now!" button.
+9. If you are not logged in, please click on the "Create a Free Account!" button.
 
 10. Once you are happy with your Coupon Pop customization, copy the code and paste it to the Coupon Pop for WP setting screen. 
 
