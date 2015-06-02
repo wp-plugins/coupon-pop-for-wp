@@ -3,7 +3,7 @@ Contributors: StoreYa
 Tags: Facebook, ecommerce, import, Viral marketing, woocommerce, woo-commerce, wp-commerce, wp, Rewards, Facebook marketing, SocialMarketing, Online Sales, Marketing tools, Social commerce, storeya, Promotional tool, engagement, Online  marketing, EmailMarketing, Twitter, G+, google, google plus, Instagram, Pinterest, LinkedIn, likes, get likes, buy likes, fans, add fans, buyfans, Incentive app, Social campaigns, ads, seo, ppc, wordpress, share, blog, plugin, sharing, network, tumblr, coupon, email, facebook likes, get likes, increase sales, likes, twitter followers, deals, discount, sales, widget, token,  paypal, leads, lead generator, lead generation
 Requires at least: 3.0
 Tested up to: 4.2
-Stable tag: 2.7
+Stable tag: 2.8
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -20,6 +20,14 @@ Automatic Lead Generator plugin increasing your visitors' engagement and convers
 - Increase Web store’s pageviews by 250%
 
 - Generates thousands of email addresses for your future sales
+
+- Targeting Rules - decide when to display your offers, on which pages and according to which traffic sources (direct, paid, search, social)
+
+- Design - WOW your customers with customized themes, no need to hire a designer or purchase expensive images - we got you covered!
+
+- Translates to any language
+
+- Easy to use. Easy to love - No design or coding skills required
 
 The Coupon Pop enables you to pre-define a promotion that would pop up to your visitors asking them to join you in any social network you are active or wish to be active on as well as your to your emails list. Coupon pop works with Facebook, Twitter, Google+, LinkedIn.
 
